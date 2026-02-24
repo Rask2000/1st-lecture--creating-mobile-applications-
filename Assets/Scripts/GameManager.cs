@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    
+   
     [SerializeField] float spawnRate;
     [SerializeField] TextMeshProUGUI startText;
 
-
+    [SerializeField] BaseBrick[] enemyPrefabArray;
+  
     bool gameStarted = false;
     int score = 0;
 
@@ -27,13 +28,16 @@ public class GameManager : MonoBehaviour
 
     void SpawnEnemy()
     {
+        int randomIndex = Random.Range(0, enemyPrefabArray.Length);
+
         float randomX = Random.Range(0f, 1f);
 
         Vector2 viewPortPos = new Vector2(randomX, 1f);
 
         Vector2 worldPos = Camera.main.ViewportToWorldPoint(viewPortPos);
 
-        Instantiate(enemyPrefab, worldPos, Quaternion.identity); 
+        
+        Instantiate(enemyPrefabArray[randomIndex], worldPos, Quaternion.identity); 
 
         score++;
 

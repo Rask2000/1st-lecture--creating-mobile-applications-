@@ -893,6 +893,9 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4667832087344052871, guid: 3454f98cdd4bc420dad5a27ee88dc088, type: 3}
   spawnRate: 1
   startText: {fileID: 293877260}
+  enemyPrefabArray:
+  - {fileID: 6219261646652786603, guid: 51d98937bf3aa4f319fd5f9abfc2317c, type: 3}
+  - {fileID: 409756299648053089, guid: dd586a864d5b84094bf690eb8ccaac5a, type: 3}
   scoreText: {fileID: 1544751858}
 --- !u!1 &1515224176
 GameObject:
