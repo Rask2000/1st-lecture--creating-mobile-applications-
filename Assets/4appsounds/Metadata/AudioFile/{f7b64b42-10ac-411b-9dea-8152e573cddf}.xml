@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f7b64b42-10ac-411b-9dea-8152e573cddf}">
+		<property name="assetPath">
+			<value>phone game theme.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.850937500000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac5f7e0-a8ad-4384-b8bc-8506453f4d2e}</destination>
+		</relationship>
+	</object>
+</objects>

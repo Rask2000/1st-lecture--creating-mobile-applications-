@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{faee2c7b-d68b-433a-95e6-f6c6fca8db0b}">
+		<property name="assetPath">
+			<value>fall sound2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9813749999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac5f7e0-a8ad-4384-b8bc-8506453f4d2e}</destination>
+		</relationship>
+	</object>
+</objects>

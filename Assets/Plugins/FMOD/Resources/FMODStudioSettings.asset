@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../4appsounds/4appsounds.fspro
-  sourceBankPath: ../4appsounds/Build
+  sourceProjectPath: Assets/4appsounds/4appsounds.fspro
+  sourceBankPath: Assets/4appsounds/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
